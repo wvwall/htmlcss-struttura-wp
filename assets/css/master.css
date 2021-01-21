@@ -16,7 +16,7 @@ body{
 }
 [class^="col-"]{
   float: left;
-  padding: 0 10px;
+  padding: 0 ;
 }
 [class^="bg_"]{
   margin-bottom: 20px;
@@ -25,12 +25,14 @@ body{
   width: 100%;
 }
 /* header */
+
 .bg_pink{
   background-color: #ff80ab;
   height: 100px;
   margin-top: 20px;
 }
 /* main */
+
 .bg_yellow{
   background-color: #ffd600;
   height: 400px;
@@ -47,23 +49,27 @@ body{
 }
 .bg_lightblue_l{
 background-color: #4fc3f7;
-height: 330px;
+height: 450px;
+margin-right: 10px;
 }
 .bg_lightblue_c{
 background-color: #4fc3f7;
-height: 330px;
+height: 450px;
+margin-left:10px;
+margin-right: 10px;
 }
 .bg_lightblue_r{
 background-color: #4fc3f7;
-height: 330px;
+height: 450px;
+margin-left:10px;
 }
 .blue{
-  background-color: blue;
-  
+  background-color: #0277bd;
 
 }
 
 /* footer */
+
 .bg_purple{
   height: 45px;
   background-color: purple;
