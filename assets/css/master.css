@@ -5,11 +5,7 @@
 }
 body{
   height: 100vh;
-
 }
-/* body.debug div{
-  height: 100px;
-} */
 .row::after{
   content: "";
   clear: both;
@@ -18,11 +14,58 @@ body{
 .row{
   margin: 0 10%;
 }
+[class^="col-"]{
+  float: left;
+  padding: 0 10px;
+}
+[class^="bg_"]{
+  margin-bottom: 20px;
+}
 .col-100{
   width: 100%;
 }
+/* header */
 .bg_pink{
   background-color: #ff80ab;
   height: 100px;
   margin-top: 20px;
+}
+/* main */
+.bg_yellow{
+  background-color: #ffd600;
+  height: 400px;
+}
+.col-25{
+  width: 25%;
+}
+.col-50{
+  width: 50%;
+}
+.bg_lightblue_t{
+  background-color: #4fc3f7;
+  height: 70px;
+}
+.bg_lightblue_l{
+background-color: #4fc3f7;
+height: 330px;
+}
+.bg_lightblue_c{
+background-color: #4fc3f7;
+height: 330px;
+}
+.bg_lightblue_r{
+background-color: #4fc3f7;
+height: 330px;
+}
+.blue{
+  background-color: blue;
+  
+
+}
+
+/* footer */
+.bg_purple{
+  height: 45px;
+  background-color: purple;
+  margin-top: 5px;
 }
